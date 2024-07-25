@@ -28,3 +28,4 @@ EOF
 
 su - ec2-user -c "source /home/ec2-user/.bashrc"
 su - ec2-user -c "pyenv install pypy3.8-7.3.11"
+su - ec2-user -c "pyenv install pypy3.10-7.3.16"

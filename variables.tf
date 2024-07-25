@@ -8,7 +8,7 @@ variable "aws_region" {
 
 variable "sg_ports" {
   type = list(number)
-  default = [ 22, 8080 ]
+  default = [ 22, 8080, 5000 ]
 }
 
 variable "sg_cidr_block" {
